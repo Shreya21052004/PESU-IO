@@ -21,10 +21,10 @@ Identical questions covering various levels of complexity—from basic definitio
      
 ## Question Set and Responses 
 
-# Sample Question and Detailed Responses #
+<u>Sample Question and Detailed Responses<u>
 Here’s an example question with responses from each model, showcasing the depth and quality of their outputs:
 
-# <u>Question :<u> #
+<u>Question :<u>
 Write a code to construct an expression tree from a postfix expression and evaluate it.
 
 Model Responses
@@ -205,7 +205,7 @@ float evaluateExpressionTree(Node* root) {
 ```
   Explanation: This response provides only a partial answer, with placeholders for the main tree construction and evaluation logic, limiting its practicality.
 
-# <u>Question: What is a binary tree?<u> #
+<u>Question: What is a binary tree?<u> 
 
 <u>llama-3.1-70b-versatile:<u> "A binary tree is a tree data structure in which each node has at most two children (i.e., left child and right child)."
 
@@ -213,7 +213,7 @@ float evaluateExpressionTree(Node* root) {
 
 <u>gemma-7b-it:<u> "A binary tree is a data structure in which each node has at most two children: a left child and a right child."
 
-# <u>Question: Write code to construct an expression tree from a postfix expression and evaluate it.<u> #
+<u>Question: Write code to construct an expression tree from a postfix expression and evaluate it.<u>
 
 <u>llama-3.1-70b-versatile:<u> Provided a full C code implementation with clear comments and explanations.
 <u>mixtral-8x7b-32768:<u> Delivered a complete C code snippet with concise comments on tree construction and evaluation.
@@ -227,13 +227,13 @@ float evaluateExpressionTree(Node* root) {
 
 ## Challenges and Solutions 
 
-# <u>Inconsistent Code Completion Across Models<u> 
+<u>Inconsistent Code Completion Across Models<u> 
 Solution: Additional hints and prompt restructuring improved completeness in code responses.
 
-# <u>Handling PDF Complexity During Parsing<u> 
+<u>Handling PDF Complexity During Parsing<u> 
 Solution: Focused on section-wise extraction of essential data structures for streamlined and relevant content selection.
 
-# <u>Terminology Misinterpretation by Models<u> 
+<u>Terminology Misinterpretation by Models<u> 
 Solution: Added contextual cues and clarifications in prompts to enhance accuracy on technical terms.
 
 
