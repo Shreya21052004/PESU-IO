@@ -1,2 +1,2 @@
-##PDF Selection Rationale
+## PDF Selection Rationale
 The selected PDF document provides comprehensive content on key data structure topics, such as Trees, Binary Search Trees (BST), AVL Trees, Expression Trees, Graphs, and Graph Traversals. This document serves as a robust source to evaluate the language models' abilities to interpret and explain foundational concepts in data structures, especially definitions, procedural steps, and code implementations.
