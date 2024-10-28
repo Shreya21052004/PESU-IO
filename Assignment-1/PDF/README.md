@@ -1,11 +1,11 @@
-## PDF Selection Rationale ##
+## PDF Selection Rationale
 The selected PDF document provides comprehensive content on key data structure topics, such as Trees, Binary Search Trees (BST), AVL Trees, Expression Trees, Graphs, and Graph Traversals. This document serves as a robust source to evaluate the language models' abilities to interpret and explain foundational concepts in data structures, especially definitions, procedural steps, and code implementations. Additionally, the document includes detailed algorithmic explanations and sample code, allowing for a nuanced evaluation of model performance in generating accurate, clear, and contextually relevant responses.
 
 Furthermore, by covering both theoretical aspects and practical implementations, such as expression tree construction and depth-first search (DFS) traversal, the document presents various levels of complexity. This setup helps assess each model's strength in handling straightforward explanations, structured procedural steps, and complex code generation. The diversity of topics also ensures that the models can be tested on a range of skills, from providing concise definitions to explaining multi-step algorithms and producing syntactically correct code snippets, making this PDF an ideal benchmark for model evaluation.
 
-## Implementation Details ##
+## Implementation Details 
 
-# Parsing
+# Parsing #
 The document was parsed in a section-by-section manner, focusing on:
 
  1. Definitions, explanations, and core algorithmic concepts.
@@ -19,12 +19,12 @@ Identical questions covering various levels of complexity—from basic definitio
      3. gemma-7b-it
 
      
-## Question Set and Responses ##
+## Question Set and Responses 
 
-# Sample Question and Detailed Responses
+# Sample Question and Detailed Responses #
 Here’s an example question with responses from each model, showcasing the depth and quality of their outputs:
 
-# <u>Question :<u>
+# <u>Question :<u> #
 Write a code to construct an expression tree from a postfix expression and evaluate it.
 
 Model Responses
@@ -205,7 +205,7 @@ float evaluateExpressionTree(Node* root) {
 ```
   Explanation: This response provides only a partial answer, with placeholders for the main tree construction and evaluation logic, limiting its practicality.
 
-# <u>Question: What is a binary tree?<u>
+# <u>Question: What is a binary tree?<u> #
 
 <u>llama-3.1-70b-versatile:<u> "A binary tree is a tree data structure in which each node has at most two children (i.e., left child and right child)."
 
@@ -213,27 +213,27 @@ float evaluateExpressionTree(Node* root) {
 
 <u>gemma-7b-it:<u> "A binary tree is a data structure in which each node has at most two children: a left child and a right child."
 
-# <u>Question: Write code to construct an expression tree from a postfix expression and evaluate it.<u>
+# <u>Question: Write code to construct an expression tree from a postfix expression and evaluate it.<u> #
 
 <u>llama-3.1-70b-versatile:<u> Provided a full C code implementation with clear comments and explanations.
 <u>mixtral-8x7b-32768:<u> Delivered a complete C code snippet with concise comments on tree construction and evaluation.
 <u>gemma-7b-it:<u> Offered partial code without full details, lacking final evaluation logic.
 
-## Model Comparison Results ##
+## Model Comparison Results 
 
 <u>llama-3.1-70b-versatile<u> produced consistent responses closely aligned with PDF content, excelling in code explanations and detail.
 <u>mixtral-8x7b-32768 provided<u> moderately accurate definitions and mostly complete answers, with minor gaps in procedural steps.
 <u>gemma-7b-it<u> gave basic definitions and partial answers, especially lacking in code completion.
 
-## Challenges and Solutions ##
+## Challenges and Solutions 
 
-# <u>Inconsistent Code Completion Across Models<u> 
+# <u>Inconsistent Code Completion Across Models<u> #
 Solution: Additional hints and prompt restructuring improved completeness in code responses.
 
-# <u>Handling PDF Complexity During Parsing<u>
+# <u>Handling PDF Complexity During Parsing<u> #
 Solution: Focused on section-wise extraction of essential data structures for streamlined and relevant content selection.
 
-# <u>Terminology Misinterpretation by Models<u>
+# <u>Terminology Misinterpretation by Models<u> #
 Solution: Added contextual cues and clarifications in prompts to enhance accuracy on technical terms.
 
 
