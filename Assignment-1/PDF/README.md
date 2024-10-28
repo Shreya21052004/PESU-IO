@@ -227,13 +227,13 @@ float evaluateExpressionTree(Node* root) {
 
 ## Challenges and Solutions 
 
-# <u>Inconsistent Code Completion Across Models<u> #
+# <u>Inconsistent Code Completion Across Models<u> 
 Solution: Additional hints and prompt restructuring improved completeness in code responses.
 
-# <u>Handling PDF Complexity During Parsing<u> #
+# <u>Handling PDF Complexity During Parsing<u> 
 Solution: Focused on section-wise extraction of essential data structures for streamlined and relevant content selection.
 
-# <u>Terminology Misinterpretation by Models<u> #
+# <u>Terminology Misinterpretation by Models<u> 
 Solution: Added contextual cues and clarifications in prompts to enhance accuracy on technical terms.
 
 
