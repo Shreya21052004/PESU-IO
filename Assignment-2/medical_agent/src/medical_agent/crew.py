@@ -8,7 +8,7 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai_tools import SerperDevTool
 import os
 
-os.environ['SERPER_APU_KEY']='98ae97d285fb5806168bbf3d3a8b03963741c8bf'
+os.environ['SERPER_APU_KEY']='YOUR_API_KEY'
 
 @CrewBase
 class MedicalAgentCrew():
